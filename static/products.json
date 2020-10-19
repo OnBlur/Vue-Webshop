@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "title": "Vlees",
+        "products": [
+            {
+                "id": 1,
+                "title": "Cote de Boeuf",
+                "price": "9.99",
+                "image": "https://media1.s-nbcnews.com/i/newscms/2018_07/1318715/grilled-steak-today-tease-180216_89508b219dd455b4d43311782841f938.jpg"
+            },
+            {
+                "id": 2,
+                "title": "Cote de Boeuf",
+                "price": "9.99",
+                "image": "https://media1.s-nbcnews.com/i/newscms/2018_07/1318715/grilled-steak-today-tease-180216_89508b219dd455b4d43311782841f938.jpg"
+            },
+            {
+                "id": 3,
+                "title": "Cote de Boeuf",
+                "price": "9.99",
+                "image": "https://media1.s-nbcnews.com/i/newscms/2018_07/1318715/grilled-steak-today-tease-180216_89508b219dd455b4d43311782841f938.jpg"
+            },
+            {
+                "id": 4,
+                "title": "Cote de Boeuf",
+                "price": "9.99",
+                "image": "https://media1.s-nbcnews.com/i/newscms/2018_07/1318715/grilled-steak-today-tease-180216_89508b219dd455b4d43311782841f938.jpg"
+            },
+            {
+                "id": 5,
+                "title": "Cote de Boeuf",
+                "price": "9.99",
+                "image": "https://media1.s-nbcnews.com/i/newscms/2018_07/1318715/grilled-steak-today-tease-180216_89508b219dd455b4d43311782841f938.jpg"
+            },
+            {
+                "id": 6,
+                "title": "Cote de Boeuf",
+                "price": "9.99",
+                "image": "https://media1.s-nbcnews.com/i/newscms/2018_07/1318715/grilled-steak-today-tease-180216_89508b219dd455b4d43311782841f938.jpg"
+            },
+            {
+                "id": 7,
+                "title": "Cote de Boeuf",
+                "price": "9.99",
+                "image": "https://media1.s-nbcnews.com/i/newscms/2018_07/1318715/grilled-steak-today-tease-180216_89508b219dd455b4d43311782841f938.jpg"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Vis",
+        "products": [
+            {
+                "id": 8,
+                "title": "Oesters",
+                "price": "9.99",
+                "image": "https://static.ah.nl/static/recepten/img_011318_890x594_JPG.jpg"
+            },
+            {
+                "id": 9,
+                "title": "Oesters",
+                "price": "9.99",
+                "image": "https://static.ah.nl/static/recepten/img_011318_890x594_JPG.jpg"
+            }
+        ]
+    }
+]
