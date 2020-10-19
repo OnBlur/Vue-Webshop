@@ -50,7 +50,7 @@ export default {
     //   #208070 80%,
     //   white 85%
     // );
-    background: linear-gradient(90deg, $secondary 50%, #333333a6 76%);
+    background: linear-gradient(90deg, $secondary 70%, #242424bd 100%);
     // opacity: 0.6;
   }
   .banner {
