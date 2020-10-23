@@ -62,16 +62,6 @@ export default {
     productAmount() {
       return this.$store.getters['basket/getAmountById'](this.id)
     },
-    addSuperscriptToPrice() {
-      let dotPosition = this.price.split('.')[1]
-      let beforeDot = this.price.substring(1, dotPosition)
-      return dotPosition
-    },
-    afterDot() {
-      let dotPosition = this.price.indexOf('.')
-      let aftDot = this.price.substring(4, dotPosition)
-      return aftDot
-    },
   },
   methods: {
     enhanceImage() {
@@ -111,7 +101,6 @@ export default {
   box-shadow: 2px 2px 5px -4px rgba(184, 184, 184, 1);
   margin-top: 20px;
   max-width: 200px;
-  // margin: 16.5px;
   img {
     cursor: pointer;
     object-fit: cover;

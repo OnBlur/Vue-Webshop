@@ -45,28 +45,13 @@ export default {
     width: 100%;
     position: absolute;
     height: 200px;
-    // background: linear-gradient(
-    //   90deg,
-    //   #208070 80%,
-    //   white 85%
-    // );
     background: linear-gradient(90deg, $secondary 70%, #242424bd 100%);
-    // opacity: 0.6;
   }
   .banner {
     display: flex;
     justify-content: space-between;
-    // align-items: center;
-
-    // background-repeat: no-repeat;
-    // background-attachment: fixed;
-    // background-position: right;
-    // background-color: $secondary;
 
     height: 200px;
-    // padding-top:30px;
-    // padding-bottom: 30px;
-    // padding-left:60px;
     .banner-steps {
       display: flex;
       flex-direction: column;
@@ -130,19 +115,9 @@ export default {
         }
       }
       .image {
-        // background-repeat: no-repeat;
-        // background-attachment: fixed;
-        // background-position: right;
         height: 100%;
         width: 300px;
         z-index: 1;
-        // background: linear-gradient(
-        //   90deg,
-        //   rgba(126, 192, 181, 1) 70%,
-        //   rgba(255, 255, 255, 1) 100%
-        // ),
-        // url({{backgroundImage}});
-        // display: flex;
       }
       img {
         height: 100%;

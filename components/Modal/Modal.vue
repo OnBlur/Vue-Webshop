@@ -18,7 +18,6 @@ export default {
 <style lang="scss" scoped>
 .modal {
   position: fixed;
-  /* margin: 0 auto; */
   z-index: 700;
   height: 100%;
   width: 100%;

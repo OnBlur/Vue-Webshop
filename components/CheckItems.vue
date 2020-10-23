@@ -24,10 +24,7 @@ export default {
 <style lang="scss" scoped>
 .checks {
   display: flex;
-  // align-content: center;
   align-items: center;
-  // justify-content: center;
-  // background-color: red;
   height: 70px;
   border-bottom: 1px solid $lines;
 

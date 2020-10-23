@@ -76,17 +76,15 @@ export const getters = {
     return state.data
   },
   getProducts: (state) => (value) => {
-    var newArray = []
+    let newArray = [];
 
     for (let i = 0; i < state.data.length; i++) {
-      //   console.log(state.data, value)
       for (let y = 0; y < value.length; y++) {
         if (state.data[i].id === value[y].productId) {
           newArray.push(state.data[i])
         }
       }
     }
-    // console.log("store", newArray)
     return newArray
   },
 }

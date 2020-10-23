@@ -47,7 +47,7 @@ export default {
     selectFilter(title, index) {
       this.selectedCat = index
 
-      var elmnt = document.getElementById(title)
+      let elmnt = document.getElementById(title)
       elmnt.scrollIntoView({ behavior: 'smooth' })
     },
   },
@@ -60,8 +60,6 @@ export default {
   flex-direction: column;
   align-items: flex-start;
   flex-grow: 2;
-  // width: 375px;
-  // background-color: gray;
   a {
     cursor: pointer;
     font-size: 14px;

@@ -62,10 +62,6 @@ export default {
       grid-template-columns: repeat(auto-fill, 200px);
       justify-content: space-between;
       grid-gap: 10px;
-      // display: flex;
-      // flex-wrap: wrap;
-      // justify-content: space-between;
-      // margin: -16.5px;
 
       &:after {
         content: '';

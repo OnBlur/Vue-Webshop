@@ -7,7 +7,6 @@ export const mutations = {
     state.data = value
   },
   addItem(state, value) {
-    console.log(value)
     for (let i = 0; i < state.data.length; i++) {
       if (state.data[i].productId == value.productId) {
         state.data.splice(i, 1)
@@ -26,7 +25,6 @@ export const mutations = {
     }
   },
   removeItem(state, value) {
-    console.log(value)
     for (let i = 0; i < state.data.length; i++) {
       if (state.data[i].productId == value.productId) {
         state.data[i].amount -= 1
@@ -62,7 +60,7 @@ export const getters = {
     return state.data
   },
   getAmountById: (state) => (id) => {
-    var result = state.data.find((item) => {
+    let result = state.data.find((item) => {
       return item.productId === id
     })
 
